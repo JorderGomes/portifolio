@@ -100,6 +100,7 @@ section {
 
 .bg-dark{
     background-color: var(--background-color);
+    color: var(--text-light-color);
 }
 
 #about-card{
@@ -127,6 +128,15 @@ section {
 .card-text {
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+
+#carouselHistory {
+    width: 75%;
+    padding: 2rem 6.5rem;
+}
+
+#carousel-history-inner .carousel-item {
+    padding: 2rem 6rem;
 }
 
 #techs-card {

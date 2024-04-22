@@ -1,0 +1,8 @@
+#carouselHistory {
+    width: 75%;
+    padding: 2rem 6.5rem;
+}
+
+#carousel-history-inner .carousel-item {
+    padding: 2rem 6rem;
+}

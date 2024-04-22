@@ -1,0 +1,14 @@
+#front-card-group {
+    /* Controlar grid */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-deck .card {
+    /* Controlar fr's */
+    background-color: var(--bg-modal);
+    color: var(--text-light-color);
+    width: 30%;
+
+}

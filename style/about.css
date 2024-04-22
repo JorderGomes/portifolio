@@ -1,0 +1,23 @@
+#about-card{
+    width: 45%;
+    padding: 10px;
+    background-color: var(--bg-modal);
+    color: var(--text-light-color);
+}
+
+#about-card .card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about-image {
+    border-radius: 100%;
+    width: 150px;
+}

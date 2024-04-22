@@ -1,0 +1,23 @@
+/* Corrigir borda */
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-card {
+    --bs-card-border-width: 0;
+    width: 45%;
+}
+
+#contact-submit {
+    background-color: var(--background-color);
+    color: var(--card-text);
+    width: 300px;
+    height: 48px;
+}
+
+#media-icons a i{
+    font-size: 36px;
+    color: var(--background-color);
+}

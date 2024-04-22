@@ -1,0 +1,26 @@
+#techs-card {
+    width: 60%;
+    margin: auto;
+    background-color: var(--bg-modal);
+    color: var(--text-light-color);
+}
+
+#techs-card-body {
+    /* Usar display grid */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.tech-item {
+    /* Controlar fr's */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-item img {
+    width: 96px;
+    height: auto;
+}

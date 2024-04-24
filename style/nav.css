@@ -21,3 +21,11 @@
     flex-direction: row;
     gap: 16px;
 }
+
+#icon-close-nav {
+    display: none;
+}
+
+.nav-item {
+    padding: 0 2rem;
+}

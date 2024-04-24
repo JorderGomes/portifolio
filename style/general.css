@@ -5,6 +5,7 @@
 }
 
 :root{
+    /* old colors */
     --background-color: #2A2A2E;
     --danger-color: #dc3545;
     --background-color-hover: rgba(180, 180, 180, 0.2);
@@ -16,11 +17,18 @@
     --text-light-color: #f8f9fa;
     --btn-outline-color: rgba(112, 176, 255, 0.9);
     --btn-outline-bg: rgba(67, 67, 64, 0.2);
+
+    /* new colors */
+    /* https://colorhunt.co/palette/22283131363f76abaeeeeeee */
+    --primary-local-color: #222831;
+    --secondary-local-color: #31363F;
+    --contrast-local-color: #76ABAE;
+    --light-local-color: #EEEEEE;
 }
 
 body{
     font-family: sans-serif;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -54,7 +62,6 @@ section {
     gap: 24px;
     width: 60%;
     margin: auto;
-    margin-top: 56px;
 }
 
 /* Positioning */
@@ -81,19 +88,19 @@ section {
     background-color: var(--bg-light);
 }
 
-.bg-dark{
-    background-color: var(--background-color);
+.bg-local-dark{
+    background-color: var(--primary-local-color);
     color: var(--text-light-color);
 }
 
 .btn-primary {
-    background-color: var(--background-color);
+    background-color: var(--primary-local-color);
     color: var(--card-text);
     border: none;
 }
 
 .btn-primary:hover {
-    background-color: var(--background-color);
+    background-color: var(--primary-local-color);
 }
 
 /* Elements size */

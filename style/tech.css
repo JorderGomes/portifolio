@@ -1,7 +1,11 @@
+#techs {
+    background-color: var(--contrast-local-color);
+}
+
 #techs-card {
     width: 60%;
     margin: auto;
-    background-color: var(--bg-modal);
+    background-color: var(--secondary-local-color);
     color: var(--text-light-color);
 }
 

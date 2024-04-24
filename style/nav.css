@@ -1,6 +1,6 @@
 #nav-menu {
-    background-color: var(--background-color);
-    border-bottom: 1px solid var(--card-text);
+    background-color: var(--primary-local-color);
+    border-bottom: 1px solid var(--light-local-color);
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -13,5 +13,11 @@
 }
 
 .navbar-brand {
-    color: var(--card-text);
+    color: var(--light-local-color);
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }

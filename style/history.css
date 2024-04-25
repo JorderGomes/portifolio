@@ -3,10 +3,22 @@
 }
 
 #carouselHistory {
-    width: 75%;
-    padding: 3.5rem 6.5rem;
+    width: 90%;
+    padding: 3rem 6rem;
 }
 
 #carousel-history-inner .carousel-item {
     padding: 2rem 6rem;
+}
+
+@media screen and (max-width: 800px) {
+    #history-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #carouselHistory {
+        padding: 2rem 2.5rem;
+    }
 }

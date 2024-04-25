@@ -2,17 +2,29 @@
     background-color: var(--secondary-local-color);
 }
 
-#front-card-group {
+#projects-container-body {
     /* Controlar grid */
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 colunas por linha */
+    gap: 24px;
     justify-content: space-evenly;
 }
 
-.card-deck .card {
-    /* Controlar fr's */
+
+#projects-container-body .card {
     background-color: var(--contrast-local-color);
     color: var(--light-local-color);
-    width: 30%;
+    /* width: 30%; */
+}
 
+@media screen and (max-width: 1150px) {
+    #projects-container-body {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas por linha em telas menores */
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #projects-container-body {
+        grid-template-columns: repeat(1, 1fr); /* 2 colunas por linha em telas menores */
+    }
 }

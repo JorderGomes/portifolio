@@ -1,0 +1,46 @@
+/* Corrigir borda */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    background-color: var(--contrast-local-color);
+}
+
+#contact-card {
+    --bs-card-border-width: 0;
+    width: 500px;
+    background-color: var(--secondary-local-color);
+    padding: 2.5rem;
+}
+
+#contact-submit {
+    background-color: var(--secondary-local-color);
+    color: var(--light-local-color);
+    width: 300px;
+    height: 48px;
+}
+
+#media-icons a i{
+    font-size: 36px;
+    color: var(--light-local-color);
+}
+
+.form-input {
+    color: var(--light-local-color);
+}
+
+#submit-box {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    #contact-card {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #contact-card {
+        width: 90%;
+    }
+}

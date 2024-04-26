@@ -1,0 +1,30 @@
+#projects {
+    background-color: var(--secondary-local-color);
+}
+
+#projects-container-body {
+    /* Controlar grid */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 colunas por linha */
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+
+#projects-container-body .card {
+    background-color: var(--contrast-local-color);
+    color: var(--light-local-color);
+    /* width: 30%; */
+}
+
+@media screen and (max-width: 1150px) {
+    #projects-container-body {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas por linha em telas menores */
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #projects-container-body {
+        grid-template-columns: repeat(1, 1fr); /* 2 colunas por linha em telas menores */
+    }
+}

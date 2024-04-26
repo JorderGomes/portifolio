@@ -1,0 +1,33 @@
+#about {
+    background-color: var(--contrast-local-color);
+}
+
+#about-card {
+    width: 65%;
+    padding: 10px;
+    background-color: var(--secondary-local-color);
+    color: var(--light-local-color);
+}
+
+#about-card .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#about-image {
+    border-radius: 100%;
+    width: 150px;
+}
+
+@media screen and (max-width: 700px) {
+    #about-card {
+        width: 80%;
+    }
+}

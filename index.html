@@ -21,33 +21,35 @@
 
 <body>
 
-    <nav id="nav-menu" class="navbar">
-        <div id="nav-container" class="container-fluid">
-          <a class="navbar-brand" href="#">Jorder Gomes</a>
-          <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars text-light"></i>
-          </button>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
+        <div class="container">
+            <span class="navbar-brand logo">Jorder Gomes</span>
+            <span id="menu-btn" class="navbar-toggler navbar-toggler-right collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="close-menu" class="my-1 mx-2 close">X</span>
+                <span id="open-menu" class="navbar-toggler-icon"></span>
+            </span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link button-links active" href="#about" onclick="changeActiveLink(event)">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-links" href="#history" onclick="changeActiveLink(event)">Trajetória</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-links" href="#techs" onclick="changeActiveLink(event)">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-links" href="#projects" onclick="changeActiveLink(event)">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-links" href="#contact" onclick="changeActiveLink(event)">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item bg-local-dark border-top border-bottom border-light">
-                  <a class="nav-link active text-light" aria-current="page" href="#about">Sobre</a>
-              </li>
-              <li class="nav-item bg-local-dark border-bottom border-light">
-                  <a class="nav-link active text-light" aria-current="page" href="#history">Trajetória</a>
-              </li>
-              <li class="nav-item bg-local-dark border-bottom border-light">
-                  <a class="nav-link active text-light" aria-current="page" href="#techs">Tecnologias</a>
-              </li>
-              <li class="nav-item bg-local-dark border-bottom border-light">
-                  <a class="nav-link active text-light" aria-current="page" href="#projects">Projetos</a>
-              </li>
-              <li class="nav-item bg-local-dark">
-                  <a class="nav-link active text-light" aria-current="page" href="#contact">Contato</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+    </nav>
     
     <main id="content">
         <section id="about" class="flex-center">
@@ -357,7 +359,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d49239e0c9.js" crossorigin="anonymous"></script>
-    <script src="script/"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script/index.js"></script>
 </body>
 
 </html>

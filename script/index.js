@@ -24,4 +24,5 @@ function sendFeedback(event) {
     });
 
     console.log(contact);
+    alert("Mensagem enviada!");
 }
